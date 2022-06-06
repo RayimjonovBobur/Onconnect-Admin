@@ -2,6 +2,7 @@ import React from "react";
 import {
   NextLeft,
   NextRight,
+  OpenIcon,
   SearchIcon,
   SettingIcon,
 } from "../../assets/images/Iocns";
@@ -11,6 +12,9 @@ import { SearchData } from "./SearchIcon";
 const Search = () => {
   return (
     <div className="search row-span-2">
+      <button className="absolute open-content">
+        <OpenIcon />
+      </button>
       <div className="search-content flex ml-3 ">
         <p className="setting mr-5 mt-4">
           <SettingIcon />
@@ -19,7 +23,7 @@ const Search = () => {
         <span className="mt-4">
           <SearchIcon />
         </span>
-      </div>
+      </div>{" "}
       <div className="search-content-item">
         {SearchData.map((item, i) => (
           <div className="search-content-item-content text-xs font-medium mb-8">
@@ -55,7 +59,6 @@ const Search = () => {
           </p>
         </div>
       </div>
-      <button className="absolute right-0">Hello</button>
     </div>
   );
 };

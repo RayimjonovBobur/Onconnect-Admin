@@ -1,4 +1,5 @@
 import React from "react";
+import MainSide from "../MainSide/MainSide";
 import MenuLink from "../Menu/MenuLink";
 import MenuLeft from "../MenuLeft/MenuLeft";
 import Navbar from "../Navbar/Navbar";
@@ -12,6 +13,7 @@ const MainPage = () => {
         <MenuLeft />
         <MenuLink />
         <Search />
+        <MainSide/>
       </div>
     </div>
   );

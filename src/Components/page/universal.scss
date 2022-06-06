@@ -88,14 +88,14 @@
 }
 
 .search {
-  width: 430px;
+  width: 397px;
   height: 34.5em;
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 16px 0px 16px #4f7d960d;
   opacity: 1;
   .search-content {
     input {
-      width: 360px;
+      width: 310px;
       height: 40px;
       background: #ffffff 0% 0% no-repeat padding-box;
       border: 1px solid #d6dee4;
@@ -112,7 +112,7 @@
     }
     span {
       position: absolute;
-      margin-left: 365px;
+      margin-left: 318px;
     }
   }
   .search-content-item {
@@ -140,26 +140,26 @@
       }
       .line {
         border: 1px solid #e4e4e4;
-        width: 35.7em;
-        margin-left: -15px;
+        width: 33em;
+        margin-left: -14px;
         position: absolute;
         margin-top: 15px;
       }
     }
   }
-
   .bottom-content {
     .number {
       p {
         text-align: left;
-        font: normal normal medium 14px/16px Qanelas;
+        font: normal normal medium 14px/16px;
         letter-spacing: 0.42px;
         color: #7a868f;
         opacity: 1;
+        margin-left: 7px;
       }
     }
     .bottom-btn {
-      margin-left: 13.5em;
+      margin-left: 11.5em;
       p {
         width: 32px;
         height: 27px;
@@ -184,8 +184,16 @@
     }
     .line2 {
       border: 1px solid #e4e4e4;
-      width: 26.8em;
+      width: 24.8em;
       position: absolute;
     }
+  }
+  .open-content {
+    width: 16px;
+    height: 83vh;
+    background: #4f7d9629 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    opacity: 1;
+    margin-left: 25.3em;
   }
 }
