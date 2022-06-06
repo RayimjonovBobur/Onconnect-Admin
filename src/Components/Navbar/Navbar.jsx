@@ -171,7 +171,7 @@ const Navbar = () => {
             </div>
           </div>
           <hr />
-          <div className="flex">
+          {/* <div className="flex main-content">
             <div className="navbar_left ">
               {AllPages?.map((page, i) => {
                 page?.path === pathname && dispatch(setCurrenPage(page));
@@ -195,7 +195,7 @@ const Navbar = () => {
               })}
             </div>
             <MenuLink />
-          </div>
+          </div> */}
           <Disclosure.Panel className="sm:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1">
               {navigation.map((item) => (

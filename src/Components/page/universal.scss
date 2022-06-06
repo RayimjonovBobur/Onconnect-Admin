@@ -10,8 +10,8 @@
 
 .navbar_left {
   background: #fff;
-  width: 235px;
-  height: 90vh;
+    // width: 235px;
+    // height: 90vh;
   background: #4f7d96 0% 0% no-repeat padding-box;
   transition: 0.1s !important;
   -webkit-box-shadow: 0px 8px 9px 0px rgba(34, 60, 80, 0.2);
@@ -147,10 +147,46 @@
       }
     }
   }
-  .line2 {
-    border: 1px solid #e4e4e4;
-    width: 27em;
-    margin-left: -7px;
-    position: absolute;
+
+  .bottom-content {
+    .number {
+      p {
+        text-align: left;
+        font: normal normal medium 14px/16px Qanelas;
+        letter-spacing: 0.42px;
+        color: #7a868f;
+        opacity: 1;
+      }
+    }
+    .bottom-btn {
+      margin-left: 13.5em;
+      p {
+        width: 32px;
+        height: 27px;
+        justify-content: center;
+        text-align: center;
+        background: #d6dee4 0% 0% no-repeat padding-box;
+        border-radius: 6px;
+        opacity: 1;
+        margin: auto;
+      }
+      span {
+        width: 32px;
+        height: 27px;
+        color: #fff;
+        background: #4f7d96 0% 0% no-repeat padding-box;
+        border-radius: 6px;
+        opacity: 1;
+        text-align: center;
+        justify-content: center;
+        margin: 0 10px 0 10px;
+      }
+    }
+    .line2 {
+      border: 1px solid #e4e4e4;
+      width: 26.8em;
+      margin-left: -7px;
+      position: absolute;
+    }
   }
 }

@@ -41,14 +41,18 @@ const Search = () => {
         ))}
       </div>
       <div className="bottom-content flex absolute bottom-0 py-5	">
-        <div className="">
-          <hr className="line2" />
-          <p>(7 тадан 7) </p>
+        <hr className="line2" />
+        <div className="mt-3 number">
+          <p className="text-sm">(7 тадан 7) </p>
         </div>
-        <div className="flex">
-          <NextLeft />
-          1
-          <NextRight />
+        <div className="flex bottom-btn mt-3">
+          <p>
+            <NextLeft />
+          </p>
+          <span>1</span>
+          <p>
+            <NextRight />
+          </p>
         </div>
       </div>
     </div>
