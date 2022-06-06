@@ -5,7 +5,7 @@ import MainPage from "./Components/MainPage/MainPage";
 import "./Components/page/universal.scss";
 
 function App() {
-  const user = false;
+  const user = true;
   if (user) {
     return <MainPage />;
   } else {
