@@ -9,6 +9,7 @@ const MenuLink = () => {
   const { pathname } = useLocation();
   const dispatch = useDispatch();
   console.log(MenuData.path);
+
   return (
     <div className="menu">
       <div class="menu-items flex">
