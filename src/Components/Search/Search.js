@@ -10,7 +10,7 @@ import { SearchData } from "./SearchIcon";
 
 const Search = () => {
   return (
-    <div className="search">
+    <div className="search row-span-2">
       <div className="search-content flex ml-3 ">
         <p className="setting mr-5 mt-4">
           <SettingIcon />
@@ -55,6 +55,7 @@ const Search = () => {
           </p>
         </div>
       </div>
+      <button className="absolute right-0">Hello</button>
     </div>
   );
 };
