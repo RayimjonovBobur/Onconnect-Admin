@@ -11,7 +11,7 @@ const MenuLink = () => {
   console.log(MenuData.path);
 
   return (
-    <div className="menu">
+    <div className="menu col-span-2">
       <div class="menu-items flex">
         {MenuData.map((page, i) => {
           page?.path === pathname && dispatch(setCurrenPage(page));
@@ -35,7 +35,6 @@ const MenuLink = () => {
         })}
       </div>
       <hr />
-      <Search />
     </div>
   );
 };

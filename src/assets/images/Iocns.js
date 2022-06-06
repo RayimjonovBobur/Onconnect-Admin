@@ -754,6 +754,40 @@ function NextRight() {
     </svg>
   );
 }
+
+function OpenIcon() {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="16"
+      height="16"
+      viewBox="0 0 16 16"
+    >
+      <g
+        id="Group_1670"
+        data-name="Group 1670"
+        transform="translate(16 -0.492) rotate(90)"
+        opacity="0.4"
+      >
+        <path
+          id="Polygon_9"
+          data-name="Polygon 9"
+          d="M8,0l8,7H0Z"
+          transform="translate(16.492 12) rotate(180)"
+          fill="#4f7d96"
+        />
+        <rect
+          id="Rectangle_232"
+          data-name="Rectangle 232"
+          width="16"
+          height="16"
+          transform="translate(0.492)"
+          fill="none"
+        />
+      </g>
+    </svg>
+  );
+}
 export {
   Logo,
   Logo1,
@@ -768,4 +802,5 @@ export {
   BolgaIcon,
   NextLeft,
   NextRight,
+  OpenIcon,
 };

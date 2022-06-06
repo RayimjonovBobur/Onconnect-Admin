@@ -9,7 +9,7 @@ const MenuLeft = () => {
   const { pathname } = useLocation();
   const dispatch = useDispatch();
   return (
-    <div className="">
+    <div className="row-span-3">
       <div className="navbar_left ">
         {AllPages?.map((page, i) => {
           page?.path === pathname && dispatch(setCurrenPage(page));

@@ -10,8 +10,8 @@
 
 .navbar_left {
   background: #fff;
-    // width: 235px;
-    // height: 90vh;
+  width: 235px;
+  height: 90vh;
   background: #4f7d96 0% 0% no-repeat padding-box;
   transition: 0.1s !important;
   -webkit-box-shadow: 0px 8px 9px 0px rgba(34, 60, 80, 0.2);
@@ -52,10 +52,12 @@
 }
 
 .menu {
-  margin-left: 1.5em;
   height: 40px;
   box-shadow: 16px 0px 16px #4f7d960d;
+  background-color: #fff;
+  width: 100%;
   .menu-items {
+    height: 40px;
     // .nav-link {
     //   font: normal normal 600 16px/19px;
     //   letter-spacing: 0.26px;
@@ -86,16 +88,14 @@
 }
 
 .search {
-  margin-top: 1.6em;
-  margin-left: -1em;
-  width: 430px;
-  height: 100%;
+  width: 397px;
+  height: 34.5em;
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 16px 0px 16px #4f7d960d;
   opacity: 1;
   .search-content {
     input {
-      width: 360px;
+      width: 310px;
       height: 40px;
       background: #ffffff 0% 0% no-repeat padding-box;
       border: 1px solid #d6dee4;
@@ -112,7 +112,7 @@
     }
     span {
       position: absolute;
-      margin-left: 365px;
+      margin-left: 318px;
     }
   }
   .search-content-item {
@@ -140,26 +140,26 @@
       }
       .line {
         border: 1px solid #e4e4e4;
-        width: 35.7em;
-        margin-left: -20px;
+        width: 33em;
+        margin-left: -14px;
         position: absolute;
         margin-top: 15px;
       }
     }
   }
-
   .bottom-content {
     .number {
       p {
         text-align: left;
-        font: normal normal medium 14px/16px Qanelas;
+        font: normal normal medium 14px/16px;
         letter-spacing: 0.42px;
         color: #7a868f;
         opacity: 1;
+        margin-left: 7px;
       }
     }
     .bottom-btn {
-      margin-left: 13.5em;
+      margin-left: 11.5em;
       p {
         width: 32px;
         height: 27px;
@@ -184,9 +184,16 @@
     }
     .line2 {
       border: 1px solid #e4e4e4;
-      width: 26.8em;
-      margin-left: -7px;
+      width: 24.8em;
       position: absolute;
     }
+  }
+  .open-content {
+    width: 16px;
+    height: 83vh;
+    background: #4f7d9629 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    opacity: 1;
+    margin-left: 25.3em;
   }
 }
