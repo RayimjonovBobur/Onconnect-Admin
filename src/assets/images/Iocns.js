@@ -829,6 +829,99 @@ function ApplicationIcon() {
   );
 }
 
+function Search_Icon() {
+  return (
+    <svg
+      id="calculate_black_24dp_1_"
+      data-name="calculate_black_24dp (1)"
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+    >
+      <g id="Group_1000" data-name="Group 1000">
+        <rect
+          id="Rectangle_725"
+          data-name="Rectangle 725"
+          width="24"
+          height="24"
+          fill="none"
+        />
+      </g>
+      <g id="Group_1001" data-name="Group 1001">
+        <path
+          id="Path_310"
+          data-name="Path 310"
+          d="M19,3H5A2.006,2.006,0,0,0,3,5V19a2.006,2.006,0,0,0,2,2H19a2.006,2.006,0,0,0,2-2V5A2.006,2.006,0,0,0,19,3ZM13.03,7.06,14.09,6,15.5,7.41,16.91,6l1.06,1.06L16.56,8.47l1.41,1.41-1.06,1.06L15.5,9.54l-1.41,1.41L13.03,9.89l1.41-1.41Zm-6.78.66h5v1.5h-5ZM11.5,16h-2v2H8V16H6V14.5H8v-2H9.5v2h2ZM18,17.25H13v-1.5h5Zm0-2.5H13v-1.5h5Z"
+          fill="#b5c5d1"
+        />
+      </g>
+    </svg>
+  );
+}
+
+function Input_Icon() {
+  return (
+    <svg
+      id="contact_support_black_24dp"
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+    >
+      <path id="Path_190" data-name="Path 190" d="M0,0H24V24H0Z" fill="none" />
+      <path
+        id="Path_191"
+        data-name="Path 191"
+        d="M10.5,2A7.371,7.371,0,0,0,3,9.225a7.371,7.371,0,0,0,7.5,7.225h.441V19C15.229,17.011,18,13.05,18,9.225A7.371,7.371,0,0,0,10.5,2Zm.882,12.325H9.618v-1.7h1.765Zm0-2.975H9.618c0-2.763,2.647-2.55,2.647-4.25a1.766,1.766,0,0,0-3.529,0H6.971A3.466,3.466,0,0,1,10.5,3.7a3.466,3.466,0,0,1,3.529,3.4C14.029,9.225,11.382,9.438,11.382,11.35Z"
+        transform="translate(1.31 1.541)"
+        fill="#4f7d96"
+      />
+    </svg>
+  );
+}
+
+function Close_Icon() {
+  return (
+    <svg
+      id="remove_circle_black_24dp"
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+    >
+      <path id="Path_308" data-name="Path 308" d="M0,0H24V24H0Z" fill="none" />
+      <path
+        id="Path_309"
+        data-name="Path 309"
+        d="M12,2A10,10,0,1,0,22,12,10,10,0,0,0,12,2Zm5,11H7V11H17Z"
+        fill="#fe844b"
+      />
+    </svg>
+  );
+}
+
+function Other_Icon() {
+  return (
+    <svg
+      id="info_black_24dp_2_"
+      data-name="info_black_24dp (2)"
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+    >
+      <path id="Path_315" data-name="Path 315" d="M0,0H24V24H0Z" fill="none" />
+      <path
+        id="Path_316"
+        data-name="Path 316"
+        d="M12,2A10,10,0,1,0,22,12,10,10,0,0,0,12,2Zm1,15H11V11h2Zm0-8H11V7h2Z"
+        fill="#b5c5d1"
+      />
+    </svg>
+  );
+}
+
 export {
   Logo,
   Logo1,
@@ -847,4 +940,10 @@ export {
   /* ------------------------------------ / ----------------------------------- */
   AdministrativeIcon,
   ApplicationIcon,
+  /* ------------------------------------ / ----------------------------------- */
+  Search_Icon,
+  Input_Icon,
+  Close_Icon,
+  /* ------------------------------------ / ----------------------------------- */
+  Other_Icon,
 };
