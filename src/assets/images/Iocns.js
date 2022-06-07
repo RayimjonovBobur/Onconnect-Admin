@@ -788,6 +788,27 @@ function OpenIcon() {
     </svg>
   );
 }
+
+function AdministrativeIcon() {
+  return (
+    <svg
+      id="article_black_24dp"
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+    >
+      <path id="Path_143" data-name="Path 143" d="M0,0H24V24H0Z" fill="none" />
+      <path
+        id="Path_144"
+        data-name="Path 144"
+        d="M19,3H5A2.006,2.006,0,0,0,3,5V19a2.006,2.006,0,0,0,2,2H19a2.006,2.006,0,0,0,2-2V5A2.006,2.006,0,0,0,19,3ZM14,17H7V15h7Zm3-4H7V11H17Zm0-4H7V7H17Z"
+        fill="#b5c5d1"
+      />
+    </svg>
+  );
+}
+
 export {
   Logo,
   Logo1,
@@ -803,4 +824,6 @@ export {
   NextLeft,
   NextRight,
   OpenIcon,
+  /* ------------------------------------ / ----------------------------------- */
+  AdministrativeIcon,
 };

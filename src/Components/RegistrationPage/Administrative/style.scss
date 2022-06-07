@@ -1,0 +1,49 @@
+.administrativ_header {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 0.8rem;
+  border-radius: 8px;
+  width: 100%;
+  div {
+    .hr {
+      border: 1px solid #d6dee4;
+      width: 100%;
+    }
+  }
+  form {
+    display: flex;
+    gap: 1.2rem;
+    position: relative;
+    margin-top: 20px;
+    div {
+      label {
+        position: absolute;
+        top: -11px;
+        background: #fff;
+        padding: 0.1rem;
+        font-size: 0.8rem;
+        height: 20px;
+        margin-left: 6px;
+      }
+
+      input {
+        border: 1px solid #d6dee4;
+        padding: 0.2rem 0.3rem;
+        border-radius: 5px;
+      }
+
+      .date {
+        padding: 0.18rem 0.3rem;
+      }
+
+      select {
+        border: 1px solid #d6dee4;
+        padding: 0.3rem 0.5rem;
+        border-radius: 5px;
+        font-size: 0.9rem;
+        width: 180px;
+      }
+    }
+  }
+}
