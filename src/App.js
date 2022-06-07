@@ -3,11 +3,37 @@ import Login from "./Components/Login/Login";
 import { Navigate, Route, Routes } from "react-router-dom";
 import MainPage from "./Components/MainPage/MainPage";
 import "./Components/page/universal.scss";
+import RegistrationPage from "./Components/RegistrationPage/RegistrationPage";
+import Navbar from "./Components/Navbar/Navbar";
+import MenuLeft from "./Components/MenuLeft/MenuLeft";
+import MenuLink from "./Components/Menu/MenuLink";
+import MainSide from "./Components/MainSide/MainSide";
+import Search from "./Components/Search/Search";
+import Home from "./Components/page/Home";
 
 function App() {
   const user = true;
   if (user) {
-    return <MainPage />;
+    return (
+      <>
+        <div className="main">
+          <Navbar />
+          <div className="" style={{ display: "flex" }}>
+            <MenuLeft />
+            {/* <MenuLink />
+            <Search />
+            <MainSide /> */}
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route
+                path="/admin/registration"
+                element={<RegistrationPage />}
+              />
+            </Routes>
+          </div>
+        </div>
+      </>
+    );
   } else {
     return (
       <Routes>

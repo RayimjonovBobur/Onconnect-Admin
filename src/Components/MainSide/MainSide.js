@@ -4,7 +4,7 @@ import { MainSideData } from "./MainSideData";
 
 const MainSide = () => {
   return (
-    <div className="mainside">
+    <div className="mainside    ">
       <div className="mainside-content">
         <div className="mainside-add">
           <h2 className="text-lg font-semibold mainside-title  mb-3">
