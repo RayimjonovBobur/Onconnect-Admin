@@ -809,6 +809,26 @@ function AdministrativeIcon() {
   );
 }
 
+function ApplicationIcon() {
+  return (
+    <svg
+      id="find_in_page_black_24dp"
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+    >
+      <path id="Path_313" data-name="Path 313" d="M0,0H24V24H0Z" fill="none" />
+      <path
+        id="Path_314"
+        data-name="Path 314"
+        d="M20,19.59V8L14,2H6A2,2,0,0,0,4.01,4L4,20a2,2,0,0,0,1.99,2H18a1.982,1.982,0,0,0,1.19-.4l-4.43-4.43A5,5,0,1,1,17,13a4.979,4.979,0,0,1-.83,2.75ZM9,13a3,3,0,1,0,3-3A3,3,0,0,0,9,13Z"
+        fill="#b5c5d1"
+      />
+    </svg>
+  );
+}
+
 export {
   Logo,
   Logo1,
@@ -826,4 +846,5 @@ export {
   OpenIcon,
   /* ------------------------------------ / ----------------------------------- */
   AdministrativeIcon,
+  ApplicationIcon,
 };
