@@ -6,10 +6,10 @@ import Search from "../Search/Search";
 const Home = () => {
   return (
     <>
-      <div className="grid grid-rows-3 grid-flow-col gap-4">
+      <div className="grid grid-rows-3  grid-flow-col">
         <MenuLink />
         <Search />
-        <MainSide />
+        {/* <MainSide /> */}
       </div>
     </>
   );
