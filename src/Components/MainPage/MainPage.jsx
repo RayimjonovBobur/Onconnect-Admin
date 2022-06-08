@@ -10,12 +10,11 @@ const MainPage = () => {
   return (
     <div className="main">
       <Navbar />
-      <div className="" style={{display:'flex'}}>
+      <div className="" style={{ display: "flex" }}>
         <MenuLeft />
         {/* <MenuLink />
         <Search />
         <MainSide /> */}
-        <RegistrationPage />
       </div>
     </div>
   );
