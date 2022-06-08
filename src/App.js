@@ -12,7 +12,7 @@ import Search from "./Components/Search/Search";
 import Home from "./Components/page/Home";
 
 function App() {
-  const user = true;
+  const user = false;
   if (user) {
     return (
       <>
