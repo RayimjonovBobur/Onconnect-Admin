@@ -16,7 +16,7 @@ function RegistrationPage() {
       <OtherInformationPage />
       <div className="save_btn">
         <button>Бекор қилиш</button>
-
+        
         <button>Саклаш</button>
       </div>
     </div>
