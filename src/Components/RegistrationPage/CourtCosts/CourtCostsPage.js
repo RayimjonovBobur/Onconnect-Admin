@@ -34,13 +34,13 @@ function CourtCostsPage() {
             <span>
               Ихтиёрии туланган <br /> давлат божи
             </span>
-            <span>40140000 сум</span>
+            {/* <span>40140000 сум</span> */}
           </div>
           <div className="court_site_content">
             <span>
               Ихтиёрии туланган <br /> давлат божи
             </span>
-            <span>40140000 сум</span>
+            {/* <span>40140000 сум</span> */}
           </div>
         </div>
         <div className="court_site_form">
