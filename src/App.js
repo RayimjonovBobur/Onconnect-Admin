@@ -10,10 +10,12 @@ import MenuLink from "./Components/Menu/MenuLink";
 import MainSide from "./Components/MainSide/MainSide";
 import Search from "./Components/Search/Search";
 import Home from "./Components/page/Home";
+import { useSelector } from "react-redux";
 
 function App() {
-  const user = true;
-  if (user) {
+  const user = useSelector((s) => s?.users_reducer?.user);
+
+  if (user?.parol === "1234") {
     return (
       <>
         <div className="main">
