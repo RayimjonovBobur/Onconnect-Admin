@@ -6,9 +6,12 @@ import Search from "../Search/Search";
 const Home = () => {
   return (
     <>
-      <div className="flex">
-        <Search />
-        {/* <MainSide /> */}
+      <div className="">
+        <MenuLink />
+        <div className="grid grid-cols-3 gap-4 	">
+          <Search />
+          <MainSide />
+        </div>
       </div>
     </>
   );

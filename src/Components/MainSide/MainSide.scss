@@ -1,15 +1,16 @@
 .mainside {
-  //   width: 43em;
-  width: 95%;
-  height: 120px;
+  width: 50.5 em;
+  //   width: 96%;
+  height: 1 20px;
   box-shadow: 0px 8px 16px #4f7d960d;
   border-radius: 6px;
   opacity: 1;
   margin-left: 2em;
+  margin-top: 10px;
   .mainside-content {
     .mainside-add {
       background: #ffffff 0% 0% no-repeat padding-box;
-      padding: 10px 10px;
+      padding: 10px 15px;
       height: 17vh;
       .category {
         gap: 15px;
@@ -53,13 +54,31 @@
         .petition-header {
           div {
             width: 100%;
+            border-radius: 5px 5px 0px 0px;
             height: 40px;
             background: #e2edf2 0% 0% no-repeat padding-box;
-            border-radius: 5px 5px 0px 0px;
             font: normal normal medium 14px/16px;
             color: #557b90;
             p {
-              margin-right: 5.7em;
+              margin-right: 11.1em;
+              letter-spacing: 0.4px;
+            }
+          }
+        }
+        .petition-data-content {
+          .petition-data-content-item {
+            div {
+              h4 {
+                width: 15em;
+              }
+            }
+            .item-data-child {
+              p {
+                font-style: 12px;
+                letter-spacing: 0.36px;
+                color: #7a868f;
+                opacity: 1;
+              }
             }
           }
         }

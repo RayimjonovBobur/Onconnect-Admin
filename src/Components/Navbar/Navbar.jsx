@@ -223,7 +223,7 @@ const Navbar = () => {
           </>
         )}
       </Disclosure>
-      {pathname == "/admin/registration" ? <></> : <MenuLink />}
+      {/* {pathname == "/admin/registration" ? <></> : <MenuLink />} */}
     </>
   );
 };

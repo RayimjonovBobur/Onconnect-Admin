@@ -12,13 +12,13 @@ import Search from "./Components/Search/Search";
 import Home from "./Components/page/Home";
 
 function App() {
-  const user = false;
+  const user = true;
   if (user) {
     return (
       <>
         <div className="main">
           <Navbar />
-          <div className="" style={{ display: "flex" }}>
+          <div className="flex">
             <MenuLeft />
             {/* <MenuLink />
             <Search />
