@@ -15,23 +15,23 @@ const MainSide = () => {
             Маъмурий низо - Биринчи инстанция
           </h2>
           <div className="flex category">
-            <div className="mr-6">
+            <div className="mr-11">
               <p className="text-xs font-normal">Хужжат номери</p>
               <h6 className="font-semibold text-sm mt-2">1234567890</h6>
             </div>{" "}
-            <div className="mr-6">
+            <div className="mr-11">
               <p className="text-xs font-normal">Хужжат санаси</p>
               <h6 className="font-semibold text-sm mt-2">12.02.2021</h6>
             </div>{" "}
-            <div className="mr-6">
+            <div className="mr-11">
               <p className="text-xs font-normal">Кирим санаси</p>
               <h6 className="font-semibold text-sm mt-2">12.02.2021</h6>
             </div>{" "}
-            <div className="mr-6">
+            <div className="mr-11">
               <p className="text-xs font-normal">Жунатиш тури</p>
               <h6 className="font-semibold text-sm mt-2">Почта</h6>
             </div>{" "}
-            <div className="mr-6">
+            <div className="mr-11">
               <p className="text-xs font-normal">Манфаатдор идора</p>
               <h6 className="font-semibold text-sm mt-2">Идоранинг номи</h6>
             </div>
@@ -123,6 +123,11 @@ const MainSide = () => {
               ))}
             </div>
           </div>
+        </div>
+        <div className="flex text-sm btn-group absolute right-2 mt-5">
+          <button>Иш муддатини узайтириш</button>
+          <button className="">Кайта таксимлаш</button>
+          <button>Учириш</button>
         </div>
       </div>
     </div>

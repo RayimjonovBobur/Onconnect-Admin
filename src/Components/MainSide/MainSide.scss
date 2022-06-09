@@ -11,7 +11,7 @@
     .mainside-add {
       background: #ffffff 0% 0% no-repeat padding-box;
       padding: 10px 15px;
-      height: 17vh;
+      height: 14vh;
       .category {
         gap: 15px;
         p {
@@ -82,6 +82,28 @@
             }
           }
         }
+      }
+    }
+    .btn-group {
+      gap: 15px;
+      button {
+        background: #7a868f 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 6px #7a868f29;
+        border-radius: 5px;
+        opacity: 1;
+        color: #fff;
+      }
+      button:nth-child(1) {
+        width: 200px;
+        height: 32px;
+      }
+      button:nth-child(2) {
+        width: 144px;
+        height: 32px;
+      }
+      button:nth-child(3) {
+        width: 80px;
+        height: 32px;
       }
     }
   }

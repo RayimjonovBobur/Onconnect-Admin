@@ -14,14 +14,14 @@ const MenuLeft = () => {
         {AllPages?.map((page, i) => {
           page?.path === pathname && dispatch(setCurrenPage(page));
           return (
-            <div className="admin-link pl-3 pt-7">
+            <div className="admin-link pl-3 pt-1">
               <Link
                 to={page.path}
                 className={`nav-link flex ${
                   pathname === page.path ? "active" : ""
                 }`}
               >
-                <span className="me-1 seact_icon mr-4">
+                <span className="seact_icon mr-4">
                   <IconType icon={page?.icon} />
                 </span>
                 <span className="tracking-wide link-text">{page.text}</span>

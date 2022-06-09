@@ -27,9 +27,11 @@
     border-left: 4px solid #4f7d96;
     transition: all 0.2s;
     color: #333;
+    padding: 10px 0;
+    margin-left: -13px;
     &:hover {
-      border-color: var(--inputColor);
-      background: #f4f7fd;
+      border-color: #fe844b;
+      background: hsla(0, 0%, 100%, 0.2);
       color: #333;
     }
     .link-text {
@@ -45,14 +47,11 @@
   }
 
   .active {
-    border-color: var(--inputColor);
-    background: #15be77;
-    color: #4f7d96;
-    a {
-      color: #444 !important;
-    }
-    &:hover {
-      background: #f4f7fd;
+    background: hsla(0, 0%, 100%, 0.2);
+    border-left: 4px solid #fe844b;
+
+    span {
+      color: #fff !important;
     }
   }
 }
@@ -63,25 +62,26 @@
   background-color: #fff;
   width: 100%;
   .menu-items {
+    margin-left: 20px;
     height: 40px;
-    // .nav-link {
-    //   font: normal normal 600 16px/19px;
-    //   letter-spacing: 0.26px;
-    //   color: #9ec8dc;
-    //   &:hover {
-    //     color: #333;
-    //   }
-    // }
-    .active-link {
-      border-color: var(--inputColor);
-      background: #15be77;
-      color: #4f7d96;
-      a {
-        color: #444 !important;
-      }
+    .nav-link {
+      font: normal normal 600 16px/19px;
+      letter-spacing: 0.26px;
+      color: #1b1d2c;
       &:hover {
-        background: #f4f7fd;
+        color: #333;
       }
+    }
+    .menu-links-item:nth-child(1) {
+      border-bottom: var(--inputColor);
+      color: #fe844b !important;
+      border-bottom-color: initial;
+      border-bottom-style: solid;
+      border-bottom-width: 3px;
+    }
+    .active-link {
+      border-bottom: var(--inputColor);
+      color: #fe844b !important;
     }
     .number-extra {
       background: #fe844b 0% 0% no-repeat padding-box;
@@ -165,7 +165,7 @@
       }
     }
     .bottom-btn {
-      margin-left: 11.5em;
+      margin-left: 17.5em;
       p {
         width: 32px;
         height: 27px;
@@ -190,7 +190,7 @@
     }
     .line2 {
       border: 1px solid #e4e4e4;
-      width: 24.8em;
+      width: 30.7em;
       position: absolute;
     }
   }

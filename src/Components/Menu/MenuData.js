@@ -1,5 +1,5 @@
 export const MenuData = [
-  { name: "Электрон кабул", extra: "3", path: "admin/acceptance" },
+  { name: "Электрон кабул", extra: "3", path: "/" },
   { name: "Руйхатга олиш", extra: "3", path: "admin/register" },
   { name: "Таксимаш", path: "admin/distribution" },
   { name: "Иш юритишни тиклаш", path: "admin/wish" },

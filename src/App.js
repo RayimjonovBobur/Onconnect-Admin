@@ -15,7 +15,7 @@ import { useSelector } from "react-redux";
 function App() {
   const user = useSelector((s) => s?.users_reducer?.user);
 
-  if (user?.parol === "1234") {
+  if (user?.parol === "admin") {
     return (
       <>
         <div className="main">

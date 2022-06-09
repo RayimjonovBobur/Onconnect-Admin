@@ -12,12 +12,12 @@ const MenuLink = () => {
 
   return (
     <div className="menu col-span-2">
-      <div class="menu-items flex">
+      <div class="menu-items flex ">
         {MenuData.map((page, i) => {
           page?.path === pathname && dispatch(setCurrenPage(page));
           return (
-            <ul>
-              <li className="mr-6 text-sm	font-medium">
+            <ul className="menu-links-item">
+              <li className="mr-6 text-sm	font-medium ">
                 <Link
                   to={page.path}
                   className={`nav-link  ${

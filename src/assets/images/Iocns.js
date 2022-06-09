@@ -949,10 +949,43 @@ function MoreIcon() {
   );
 }
 
+function MenuLeftIcon() {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+    >
+      <g
+        id="Group_1003"
+        data-name="Group 1003"
+        transform="translate(0 24) rotate(-90)"
+      >
+        <path
+          id="Polygon_9"
+          data-name="Polygon 9"
+          d="M4,0,8,5H0Z"
+          transform="translate(16 15) rotate(180)"
+          fill="#d6dee4"
+        />
+        <rect
+          id="Rectangle_232"
+          data-name="Rectangle 232"
+          width="24"
+          height="24"
+          fill="none"
+        />
+      </g>
+    </svg>
+  );
+}
+
 export {
   Logo,
   Logo1,
   DropIcon,
+  MenuLeftIcon,
   Text,
   FullScren,
   SearchIcon,
