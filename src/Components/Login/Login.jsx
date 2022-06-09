@@ -1,10 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import loginImg from "../../assets/images/5224471.png";
 import { Logo } from "../../assets/images/Iocns";
+import { setUser } from "../Redux/stored_reducer";
 import "./Login.scss";
 
 const Login = () => {
+  const user = useSelector((s) => s?.users_reducer?.user);
+  const dispatch = useDispatch();
+  const [isUser, setIsUser] = useState({});
+
+  const handleChange = (e) => {
+    setIsUser(e);
+  };
+
+  const handleSubmit = () => {
+    dispatch(setUser({ ...user, ...isUser }));
+  };
   return (
     <div className="login">
       <div className="loginContent">
@@ -20,17 +33,35 @@ const Login = () => {
               <div className="form-content">
                 <div className="input-content">
                   <div className="controls">
-                    <input type="text" name="login" placeholder="Логин" />
+                    <input
+                      type="text"
+                      name="login"
+                      placeholder="Логин"
+                      onChange={(e) =>
+                        handleChange({
+                          [e.target.name]: e.target.value,
+                        })
+                      }
+                    />
                     <label htmlFor="login">Логин</label>
                   </div>{" "}
                   <div className="controls">
-                    <input type="password" name="parol" placeholder="Пароль" />
+                    <input
+                      type="password"
+                      name="parol"
+                      placeholder="Пароль"
+                      onChange={(e) =>
+                        handleChange({
+                          [e.target.name]: e.target.value,
+                        })
+                      }
+                    />
                     <label htmlFor="parol">Пароль</label>
                   </div>
                 </div>
                 <div className="buttons">
                   <Link to="/">Забыли пароль?</Link>
-                  <button>Кириш</button>
+                  <button onClick={handleSubmit}>Кириш</button>
                 </div>
                 <p>Безопасность системы осуществлена на базе стандартов</p>
                 <p>O'zDST 1105:2009 Алгоритм шифрования данных</p>

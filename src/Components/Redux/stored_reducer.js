@@ -3,7 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 export const allData = createSlice({
   name: "Admin panel",
   initialState: {
-    values: [{ name: "sukhrob", age: 20 }],
+    user: {},
     active: 0,
     currentPage: {},
     cartTotalQuantity: 0,
@@ -11,11 +11,10 @@ export const allData = createSlice({
     product: [],
   },
   reducers: {
-    setValues: (state, { payload }) => {
-      state.values = payload;
+    setUser: (state, { payload }) => {
+      state.user = payload;
     },
     setActive: (state, { payload }) => {
-      console.log(payload);
       state.active = payload;
     },
     setCurrenPage: (state, { payload }) => {
@@ -49,7 +48,7 @@ export const allData = createSlice({
 });
 
 export const {
-  setValues,
+  setUser,
   setActive,
   setCurrenPage,
   toggleModal,

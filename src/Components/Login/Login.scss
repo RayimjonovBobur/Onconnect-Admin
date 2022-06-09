@@ -50,6 +50,7 @@
                 input {
                   transition: all 0.2s;
                   touch-action: manipulation;
+                  padding: 0 .4rem ;
                 }
                 input:focus {
                   outline: 0;
