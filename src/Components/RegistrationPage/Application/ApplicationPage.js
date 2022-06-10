@@ -16,7 +16,7 @@ function ApplicationPage() {
           <label>Тип отправки</label>
           <select name="" id="" style={{ width: "250px" }}>
             <option value="Тип отправки">Тип отправки</option>
-            <option value="Тип отправки">Тип отправки</option>
+            <option value="Тип отправки">Тип сохранять</option>
           </select>
         </div>
         <div>
